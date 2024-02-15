@@ -80,7 +80,7 @@ const CartDetails = () => {
       "Content-Type": "application/json",
     };
     const response = await fetch(
-      "http://localhost:3002/api/create-checkout-session",
+      "https://ecommerce-stripe-app-r0ve.onrender.com/api/create-checkout-session",
       {
         method: "POST",
         headers: headers,
